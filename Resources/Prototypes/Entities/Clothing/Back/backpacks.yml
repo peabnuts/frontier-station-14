@@ -304,6 +304,15 @@
   name: bag of holding
   description: A backpack that opens into a localized pocket of bluespace.
   components:
+  - type: ChameleonClothing # Coyote
+    slot: [back]
+    default: ClothingBackpackHolding
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+      enum.ChameleonUiKey.Key:
+        type: ChameleonBoundUserInterface # End Coyote
   - type: Sprite
     sprite: _NF/Clothing/Back/Backpacks/holding.rsi # Frontier
     state: holding
@@ -333,7 +342,7 @@
   - type: Storage
     maxItemSize: Huge
     grid:
-    - 0,0,7,7 # Frontier: Was 0,0,19,9
+    - 0,0,13,7 # Frontier: Was 0,0,19,9
 
 - type: entity
   parent: NFClothingBackpack # Frontier: ClothingBackpack<NFClothingBackpackClown
