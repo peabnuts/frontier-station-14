@@ -7,6 +7,13 @@
     - SlimePerson
     - Vox
 
+- type: loadoutEffectGroup # Feroxi Port
+  id: WaterVaporBreather
+  effects:
+  - !type:SpeciesLoadoutEffect
+    species:
+    - Feroxi
+
 - type: loadoutEffectGroup
   id: NFOxygenBreather
   effects:
@@ -15,6 +22,7 @@
     - SlimePerson
     - Vox
     - Sheleg # Different meds
+    - Feroxi # Feroxi Port
     inverted: true
 
 - type: loadoutEffectGroup

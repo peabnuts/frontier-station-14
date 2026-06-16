@@ -17,7 +17,11 @@ namespace Content.Shared.Humanoid.Markings
         UndergarmentTop,
         UndergarmentBottom,
         Arms,
+        LeftArm,
+        RightArm,
         Legs,
+        LeftLeg,
+        RightLeg,
         Tail,
         Overlay
     }

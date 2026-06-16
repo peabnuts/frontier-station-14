@@ -2190,7 +2190,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineTankDispenserEVA
-  suffix: EVA [O2, N2]
+  suffix: EVA [O2, N2, H20] # Feroxi port
   name: gas tank dispenser
   description: A vendor for dispensing gas tanks.
   components:

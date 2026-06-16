@@ -74,6 +74,8 @@
   - type: Tag
     tags:
     - Meat
+    - Fruit #Should be edible by everyone
+    - ReptilianFood
 
 - type: entity
   name: soy sustenance bar

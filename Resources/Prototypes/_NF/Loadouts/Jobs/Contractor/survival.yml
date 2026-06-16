@@ -18,6 +18,16 @@
   storage:
     back:
     - NFBoxSurvivalNitrogen
+  
+- type: loadout # Feroxi Port
+  id: EmergencyWaterVapor
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: WaterVaporBreather
+  storage:
+    back:
+    - BoxSurvivalWaterVapor
+
 
 - type: loadout
   id: ContractorNFBoxSurvivalSheleg
@@ -57,6 +67,21 @@
   storage:
     back:
     - NFBoxSurvivalExtendedNitrogen
+
+# Feroxi port
+- type: loadout
+  id: BoxSurvivalExtendedWaterVapor
+  name: extended-water vapor survival box
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT1
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: WaterVaporBreather
+  price: 1000
+  storage:
+    back:
+    - BoxSurvivalExtendedWaterVapor
 
 - type: loadout
   id: ContractorNFBoxSurvivalExtendedSheleg

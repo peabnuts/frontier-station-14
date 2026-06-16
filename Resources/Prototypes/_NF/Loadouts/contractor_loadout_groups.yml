@@ -928,10 +928,13 @@
   - ContractorNFBoxSurvivalExtendedNitrogen
   - ContractorNFBoxSurvivalSheleg
   - ContractorNFBoxSurvivalExtendedSheleg
+  - EmergencyWaterVapor # Feroxi Port
+  - BoxSurvivalExtendedWaterVapor
   fallbacks:
   - ContractorNFBoxSurvival
   - ContractorNFBoxSurvivalNitrogen
   - ContractorNFBoxSurvivalSheleg
+  - EmergencyWaterVapor
 
 - type: loadoutGroup
   id: ContractorEncryptionKey

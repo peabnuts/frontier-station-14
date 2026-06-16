@@ -1,0 +1,36 @@
+- type: entity
+  parent: BoxSurvival
+  id: BoxSurvivalWaterVapor
+  suffix: H2O
+  components:
+  - type: StorageFill
+    contents:
+    - id: EmergencyWaterVaporTankFilled
+    - id: SpaceMedipen
+    - id: EmergencyMedipen
+    - id: FoodPSB
+    - id: DrinkWaterBottleFull
+    - id: Flare
+  - type: Sprite
+    layers:
+      - state: internals
+      - state: emergencytank
+
+- type: entity
+  parent: BoxSurvivalEngineering
+  id: BoxSurvivalExtendedWaterVapor
+  suffix: H2O
+  components:
+  - type: StorageFill
+    contents:
+    - id: DoubleEmergencyWaterVaporTankFilled
+    - id: SpaceMedipen
+    - id: EmergencyMedipen
+    - id: FoodPSB
+    - id: DrinkWaterBottleFull
+    - id: CrowbarPocket
+  - type: Sprite
+    layers:
+      - state: internals
+      - state: extendedtank
+
