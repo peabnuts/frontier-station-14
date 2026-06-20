@@ -1,0 +1,12 @@
+# SPDX-FileCopyrightText: 2025 deltanedas
+# SPDX-FileCopyrightText: 2025 portfiend
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: latheRecipePack
+  id: CutterMachineStaticDen
+  recipes:
+  - FloorTileItemPool
+  - FloorTileItemPoolDark
+

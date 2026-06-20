@@ -826,6 +826,7 @@
     - NFFloorsMiscStatic # Frontier
     - NFFloorTiles # Frontier
     - NFFloorTilesCarpet # Frontier
+    - CutterMachineStaticDen # Port from the Den
     dynamicPacks: # Frontier
     - FauxTiles # Frontier
   - type: EmagLatheRecipes # Frontier

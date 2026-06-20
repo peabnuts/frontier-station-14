@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: 2025 portfiend
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: latheRecipe
+  parent: BaseTileRecipe
+  id: FloorTileItemPool
+  result: FloorTileItemPool
+  applyMaterialDiscount: false #Edit 
+  completetime: 0.5
+  materials:
+    Steel: 25
+
+- type: latheRecipe
+  parent: BaseTileRecipe
+  id: FloorTileItemPoolDark
+  result: FloorTileItemPoolDark
+  applyMaterialDiscount: false
+  completetime: 0.5
+  materials:
+    Steel: 25
